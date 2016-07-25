@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test coursera</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-    <link rel="stylesheet"  type="text/css" media="all" href="./css/style.css" />
+  <title>mod3 solution</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet"  type="text/css" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
-<h1>Our menu</h1>
- <div class="grid-row">
-         <div class="col1">
-            <div class="content">
-              <h3 class="chicken">Chicken</h3>
-              <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
-              </div>
-            </div>
-         </div>
-         <div class="col2">
-            <div class="content">
-             <h3 class="beef">Beef</h3>
-              <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
-            </div>
-         </div>
-         <div class="col3">
-            <div class="content">
-             <h3 class="sushi">Sushi</h3>
-              <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
-            </div>
-         </div>
- </div>
 
+<div id="header">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Food LLC</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav text-center visible-xs">
+        <li class="menu-chicken"><a href="#section1"></a>Chicken</li>
+        <li class="menu-beef"><a href="#section2"></a>Beef</li>
+        <li class="menu-sushi"><a href="#section3"></a>Chicken</li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+</div>
+
+<div id="content">
+<h1 id="top" class="text-center">Our Menu</h1>
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <section class="menu-content" id="section1">
+      <h3 class="text-center">Chicken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nunc et lorem laoreet gravida at vitae lectus. Nulla pretium orci vitae pulvinar lacinia. Donec consequat, lacus non porttitor mattis, ipsum felis porttitor nunc, non condimentum mauris erat in diam. Curabitur sit amet pretium lacus, in suscipit lectus. Aliquam tincidunt maximus quam, ac sodales elit porttitor non. Sed hendrerit facilisis dui vel lobortis. Mauris aliquam ipsum quis nisl rhoncus dignissim.
+      Vestibulum et ullamcorper est, a viverra risus. Sed non arcu ipsum. Aenean vulputate eros nec lectus commodo, vel faucibus velit auctor. Proin vitae ultricies nisi. Praesent aliquam turpis justo, hendrerit sodales ipsum accumsan eu. Aenean ultrices mauris lectus, et cursus nibh vestibulum a. Phasellus aliquet, neque scelerisque dignissim venenatis, magna orci lobortis risus, non tristique tortor lorem mattis neque. Donec sit amet tellus quam. Sed at tincidunt odio.</p>
+    </section>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <section class="menu-content" id="section2">
+      <h3 class="text-center">Beef</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nunc et lorem laoreet gravida at vitae lectus. Nulla pretium orci vitae pulvinar lacinia. Donec consequat, lacus non porttitor mattis, ipsum felis porttitor nunc, non condimentum mauris erat in diam. Curabitur sit amet pretium lacus, in suscipit lectus. Aliquam tincidunt maximus quam, ac sodales elit porttitor non. Sed hendrerit facilisis dui vel lobortis. Mauris aliquam ipsum quis nisl rhoncus dignissim.
+      Vestibulum et ullamcorper est, a viverra risus. Sed non arcu ipsum. Aenean vulputate eros nec lectus commodo, vel faucibus velit auctor. Proin vitae ultricies nisi. Praesent aliquam turpis justo, hendrerit sodales ipsum accumsan eu. Aenean ultrices mauris lectus, et cursus nibh vestibulum a. Phasellus aliquet, neque scelerisque dignissim venenatis, magna orci lobortis risus, non tristique tortor lorem mattis neque. Donec sit amet tellus quam. Sed at tincidunt odio.</p>
+    </section>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-4">
+    <section class="menu-content" id="section3">
+      <h3 class="text-center">Sushi</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nunc et lorem laoreet gravida at vitae lectus. Nulla pretium orci vitae pulvinar lacinia. Donec consequat, lacus non porttitor mattis, ipsum felis porttitor nunc, non condimentum mauris erat in diam. Curabitur sit amet pretium lacus, in suscipit lectus. Aliquam tincidunt maximus quam, ac sodales elit porttitor non. Sed hendrerit facilisis dui vel lobortis. Mauris aliquam ipsum quis nisl rhoncus dignissim.
+      Vestibulum et ullamcorper est, a viverra risus. Sed non arcu ipsum. Aenean vulputate eros nec lectus commodo, vel faucibus velit auctor. Proin vitae ultricies nisi. Praesent aliquam turpis justo, hendrerit sodales ipsum accumsan eu. Aenean ultrices mauris lectus, et cursus nibh vestibulum a. Phasellus aliquet, neque scelerisque dignissim venenatis, magna orci lobortis risus, non tristique tortor lorem mattis neque. Donec sit amet tellus quam. Sed at tincidunt odio.</p>
+    </section>
+</div>
+  
+</div>
+
+<div id="footer">
+    <p class="visible-xs text-right">
+      <a href="#top">Back to Top</a>
+    </p>
+</div>
+
+  <script src="js/jquery-2.1.4.min.js"> </script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
