@@ -3,11 +3,62 @@
 <head>
 	<title>Test coursera</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-    <link rel="stylesheet"  type="text/css" media="all" href="./css/style.css" />
+  <link rel="stylesheet"  type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+<div id="header">
+  <div class="container">
+    <nav class="navbar navbar-default">
+    
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food LLC</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="navbar-collapse collapse" id="main-menu">
+        <ul class="nav navbar-nav">
+         <li> <a href="">Chicken</a></li> 
+         <li> <a href="">Beef</a></li> 
+         <li> <a href="">Sushi</a></li> 
+        </ul>
+       </div> <!-- close navbar-collapse -->
+    </nav>
+  </div> <!--close container-->
+</div> <!--close header-->
+
 <h1>Our menu</h1>
- <div class="grid-row">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="content">
+       <h3 class="chicken">Chicken</h3>
+              <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="content">
+      <h3 class="beef">Beef</h3>
+              <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="content">
+      <h3 class="sushi">Sushi</h3>  
+              <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
+            </div>
+    </div>
+  </div>
+</div>
+
+ <!-- <div class="grid-row">
          <div class="col1">
             <div class="content">
               <h3 class="chicken">Chicken</h3>
@@ -27,7 +78,9 @@
               <p>You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.</p>
             </div>
          </div>
- </div>
-
+ </div> -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
