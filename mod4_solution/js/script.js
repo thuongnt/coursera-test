@@ -8,9 +8,6 @@ function toUpperCase(string) {
 	 	return string;
 	 }
 }
-var a = "ohn";
-console.log(toUpperCase(a));
-
 // names Array
 
 var names = ["ross", "john", "phoebe", "Jenifer", "jenny"];
